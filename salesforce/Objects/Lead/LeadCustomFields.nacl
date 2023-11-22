@@ -92,4 +92,15 @@ type salesforce.Lead {
     updateable = true
     queryable = true
   }
+  salesforce.Text CustomField1__c {
+    apiName = "Lead.CustomField1__c"
+    externalId = false
+    label = "CustomField1"
+    length = 18
+    unique = false
+    createable = true
+    updateable = true
+     caseSensitive = false
+	 queryable = true
+  }
 }
