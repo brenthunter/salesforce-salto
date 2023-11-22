@@ -81,4 +81,26 @@ type salesforce.Lead {
     caseSensitive = false
     queryable = true
   }
+  salesforce.Number Score__c {
+    apiName = "Lead.Score__c"
+    externalId = false
+    label = "Score"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text CustomField2__c {
+    apiName = "Lead.CustomField2__c"
+    externalId = false
+    label = "CustomField2"
+    length = 18
+    unique = false
+    createable = true
+    updateable = true
+     caseSensitive = false
+	 queryable = true
+  }
 }
