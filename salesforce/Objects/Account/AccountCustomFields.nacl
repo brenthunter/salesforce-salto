@@ -137,4 +137,15 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
+  salesforce.Text SLASerialNumber2__c {
+    apiName = "Account.SLASerialNumber2__c"
+    externalId = false
+    label = "SLA Serial Number 2"
+    length = 10
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
 }
